@@ -41,6 +41,11 @@ services:
       MYSQL_USER: "${DB_USERNAME}"
       MYSQL_PASSWORD: "${DB_PASSWORD}"
     container_name: mysql
+  adminer: 
+    image: adminer
+    restart: always
+    ports:
+      - "8081:8080"
 networks:
   frontend:
   backend:
