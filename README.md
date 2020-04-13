@@ -2,15 +2,24 @@
 2.Addded a few more php pages into public_html.
 
 greenearth.sql is the database.
+
 database access in php project: ip=192.168.124.131 port=3306
+
 database account = root
+
 database password = rootpassword
+
 database name = greenearth 
 
+
 Some testing acc and password (Accound|Password):
+
 admin|123
+
 Ruser1|123
+
 Cuser|123
+
 Ruser|123
 
 Forked from mzazon/php-apache-mysql-containerized. Below is original README.md
